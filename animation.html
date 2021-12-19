@@ -1,0 +1,33 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+<style> 
+div {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  position: sticky;
+  animation-name: box;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes box {
+  0%   {background-color:rgb(98, 173, 192); left:0px; top:0px;}
+  25%  {background-color:rgb(128, 68, 156); left:200px; top:0px;}
+  50%  {background-color:rgb(175, 61, 61); left:200px; top:200px;}
+  75%  {background-color:rgb(207, 178, 49); left:0px; top:200px;}
+  100% {background-color:rgb(173, 16, 16); left:0px; top:0px;}
+}
+</style>
+</head>
+<body>
+
+<h1>Box Animation</h1>
+
+
+
+<div></div>
+
+</body>
+</html>
